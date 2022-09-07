@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5930d2b7d9d572541beb6d911b386715, type: 3}
+  m_Name: PlayerManager
+  m_EditorClassIdentifier: 
+  Players:
+  - sprite: {fileID: 21300000, guid: cdee4c5782f6a5b40a2c4a58b2d9fd6e, type: 3}
+    cost: 0
+    PlayerSkin: {fileID: 2842854606809893257, guid: b9eed9b0e4bedde4fa4ea9f6f994810d, type: 3}
+  - sprite: {fileID: 21300000, guid: aad717d31715b6e46a17d6fbf28455ac, type: 3}
+    cost: 2
+    PlayerSkin: {fileID: 7427801621480694886, guid: 6c73004b453bbb74d970b85011a5c07b, type: 3}
+  - sprite: {fileID: 21300026, guid: aad717d31715b6e46a17d6fbf28455ac, type: 3}
+    cost: 5
+    PlayerSkin: {fileID: 8872623363180822232, guid: 93ba622cd66cc9a44a24d0a7c3302bca, type: 3}
+  - sprite: {fileID: 21300000, guid: cdee4c5782f6a5b40a2c4a58b2d9fd6e, type: 3}
+    cost: 300
+    PlayerSkin: {fileID: 114464545924053498, guid: 794f215c6c3398948b9d28058f19fd06, type: 3}
